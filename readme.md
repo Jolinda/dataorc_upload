@@ -1,6 +1,6 @@
 Call the script from the same directory where dataorc is installed, or change the subprocess command to include the full path to the binary
 
-Script assumes the dicom path has folders for each session, with names starting with the subject name. If your data is organized differently you may need to tweak the script a bit.
+Script assumes the dicom path has folders for each session, with names starting with the subject name, and that dicom files end in .dcm. If your data is organized differently you may need to tweak the script a bit.
 
 Otherwise just change the dicompath, siteid, project, and expected number of files to match your site.
 
