@@ -75,7 +75,6 @@ else:
 	print(f'{counter} files written to {zipfile}')
 	if counter != expected:
 		print(f'Warning, expected {expected} files.')
-		exit()
 
 if input('Proceed with upload? [y/n] ').lower() == 'y':
 	subprocess.run(['echo', './dataorc', 'xnat-upload-session', '--host=https://xnat.med.yale.edu',
